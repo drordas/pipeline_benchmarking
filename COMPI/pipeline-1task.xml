@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is an example file of a compi pipeline -->
+<pipeline xmlns="http://www.sing-group.org/compi/pipeline-1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<version>0.0.1</version>
+	<params></params>
+	<tasks>
+		<foreach id="task-1" of="range" in="1:100000" as="i"></foreach>
+	</tasks>
+</pipeline>
